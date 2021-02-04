@@ -1,0 +1,37 @@
+@media (min-width: 576px){
+    .welcome {
+        height: 500px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg');
+        background-position: center;
+        text-align: center;
+    }
+
+    .welcome h3{
+      font-size: 1.4rem;
+      margin-top: 60px;
+      margin-bottom: 4%;
+    }
+
+    .welcome h1{
+        width: 80%;
+        font-size: 3.2rem;
+        line-height: 3.2rem;
+    }
+
+    .welcome button{
+      background-color: #fed136;
+      color: #fff;
+      padding: 1rem 1.4rem;
+      font-size: 1.7rem;
+      border-radius: 8%;
+    }
+
+   
+
+   
+}

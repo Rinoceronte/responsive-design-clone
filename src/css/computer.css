@@ -1,0 +1,95 @@
+@media (min-width: 992px){
+
+    .welcome {
+        height: 120vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg');
+        background-position: center; 
+        background-size: stretch;
+        text-align: center;
+    }
+
+    .welcome h3{
+      font-size: 1.4rem;
+      margin-top: 60px;
+      margin-bottom: 4%;
+    }
+
+    .welcome h1{
+        width: 80%;
+        font-size: 3.2rem;
+        line-height: 3.2rem;
+    }
+
+    .welcome button{
+      background-color: #fed136;
+      color: #fff;
+      padding: 1rem 1.4rem;
+      font-size: 1.7rem;
+      border-radius: 8%;
+    }
+
+    .big-screen{
+        display: flex;
+        height: 40%;
+        align-self: center;
+        justify-self: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .topnav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .start {
+        width: 25%;
+    }
+
+    .center{
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #myLinks {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-off{
+        display: flex!important;
+    }
+
+    #myLinks ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+    }
+
+    #myLinks li{
+        list-style: none;
+        
+    }
+
+    #myLinks li a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .icon{
+        display: none;
+    }
+
+   
+}

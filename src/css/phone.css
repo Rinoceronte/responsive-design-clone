@@ -1,0 +1,305 @@
+@media(min-width: 300px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 10vh;
+        z-index: 3;
+    }
+
+    .start{
+        width: 40%;
+    }
+
+    @media(max-width: 991px){
+    .topnav {
+        overflow: hidden;
+        background-color: #212529;
+        position: fixed;
+        top: 0;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+        transition: ease-in-out;
+        position: absolute;
+        margin: 0;
+        left: 0;
+        top: 50px;
+        width: 100%;
+        background-color: #212529;
+        font-size: .8rem;
+      }
+
+      .center {
+        width: 90%;
+        background-color: #212529;
+        position: fixed;
+        top: 10px;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+      }
+
+      .nav-off{
+        display: none!important;
+      }
+
+      #myLinks {
+        justify-self: flex-start;
+        align-self: flex-start;
+        height: 28vh;
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+        line-height: 0.6em;
+      }
+
+      #myLinks li {
+          list-style: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+
+      a.icon {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          font-size: 0.8rem;
+          padding: .7em 1.6em;
+          border-radius: 8%;
+          background-color: #fed136;
+      }
+      
+      .topnav a.icon {
+        display: block;
+      }
+      
+    
+      
+      .active {
+        /* background-color: #4CAF50; */
+        color: #fed136;
+      }
+    }
+
+      .text-primary{
+          color: #fed136;
+          z-index: 1;
+      }
+
+      .fa-inverse{
+          width: 60%;
+          z-index: 2;
+      }
+
+      .cart{
+        margin-left: 20px;
+        margin-top: 30px;
+      }
+
+      .computer{
+        margin-left: 25px;
+        margin-top: 30px;
+      }
+
+      .lock{
+        margin-left: 25px;
+        margin-top: 20px;
+      }
+    
+
+      .welcome {
+          height: 500px;
+          color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg');
+          background-position: center;
+          text-align: center;
+      }
+
+      .welcome h3{
+        font-size: 1.4rem;
+        margin-bottom: 4%;
+      }
+
+      .welcome h1{
+          margin-top: 5%;
+          margin-bottom: 5%;
+          font-size: 3.2rem;
+          line-height: 3.2rem;
+      }
+
+      .welcome button{
+        background-color: #fed136;
+        color: #fff;
+        margin-top: 5%;
+        padding: 1rem 1.4rem;
+        font-size: 1.7rem;
+        border-radius: 8%;
+      }
+
+      .services {
+          width: 100%;
+          height: 230vh;
+          background-color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      section{
+          text-align: center;
+          height: 25%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: #fff;
+      }
+
+      h1 {
+        margin-top: 10px;
+        font-size: 2.7rem;
+        line-height: 4.2rem;
+        margin: 0;
+      }
+      h2{
+          line-height: 4.2rem;
+      }
+
+      img{
+          width: 90%;
+      }
+
+      p{
+          font-size: 1.15rem;
+      }
+
+      .portfolio{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          background-color: #f8f9fa;
+          height: 430vh;
+      }
+
+      section aside{
+          height: 40%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+
+      h3{
+          font-size: 1.8rem;
+      }
+
+      .first-section{
+          background: transparent;
+      }
+
+      .about{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          height: 360vh;
+      }
+
+      .about section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100vw;
+      }
+
+      .about section img{
+        width: 20%;
+        border-radius: 50%;
+        margin-top: 23%;
+        align-self: flex-start;
+        border: 8px solid #e9ecef;
+      }
+
+      .about section aside{
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+      }
+
+      .about section aside h2{
+          line-height: 2.1rem;
+      }
+
+      /* .timeline-image{
+        background-color: #fed136;
+        border-radius: 50%;
+        width: 5%;
+        height: 70px;
+        text-align: center;
+        vertical-align: 50%;
+        justify-self: flex-start;
+      } */
+
+      .about .story{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fed136;
+        border-radius: 50%;
+        border: 8px solid #e9ecef;
+        width: 60px;
+        height: 60px;
+      }
+
+      .timeline-image h4{
+        
+        
+        font-size: .7rem;
+        
+        color: white;
+        text-align: center;
+        vertical-align: 50%;
+        
+      }
+
+
+      .social{
+          display: flex;
+          width: 100%;
+          height: 25vh;
+          justify-content: space-around;
+      }
+
+      /* .btn-dark{
+          color: white;
+          background-color: grey;
+      }
+
+      .btn-dark svg{
+          color: blue;
+      } */
+
+
+}
